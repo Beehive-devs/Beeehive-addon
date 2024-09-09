@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "beehive-addon",
+  "version": "1.0.0",
+  "name": "Beehive Addon",
+  "description": "Beehive Addon is a mod that adds a bunch exploit to the Meteor Client.",
+  "authors": [
+    "filepile, Hitomi"
+  ],
+  "contact": {
+    "repo": "https://github.com/Beehive-devs"
+  },
+  "icon": "assets/icon/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "meteor": [
+      "beehive.filepile.exploit.Beehive"
+    ]
+  },
+  "custom": {
+    "meteor-client:color": "247,186,0"
+  },
+  "depends": {
+    "java": ">=21",
+    "minecraft": ">=${mc_version}",
+    "meteor-client": "*"
+  }
+}
