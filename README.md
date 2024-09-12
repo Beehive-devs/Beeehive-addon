@@ -1,6 +1,7 @@
 # Beeehive-addon
 ----------------
 # Exploit
-- BoatExploit
+- BoatExploit (instant boat kill )
  
+
 
